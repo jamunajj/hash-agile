@@ -1,6 +1,10 @@
 #Program to replace the highest value with next highest value and difference
 
-numbers = [10, 20, 8, 9, 35, 45, 18, 21]
+puts "Enter your list of numbers with space eg 10 45 80 60:"
+
+numbers = []
+
+numbers = gets.chomp.split(" ").map(&:to_i)
 
 first_highest = numbers.max()
 

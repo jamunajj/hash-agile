@@ -1,6 +1,8 @@
-puts "Enter your list of numbers with space :"
+#Program to shift array element circularly right (The last element to the first)
 
-numbers = gets.chomp.split(" ")
+puts "Enter your list of numbers with space eg 10 45 80 60:"
+
+numbers = gets.chomp.split(" ").map(&:to_i)
 
 shifted_array = []
 

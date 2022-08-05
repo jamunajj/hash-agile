@@ -1,3 +1,5 @@
+#Program to print the antonyms from the given list of words
+
 antonyms = {
 	"Right" => "Left",
 	"Up" => "Down",
