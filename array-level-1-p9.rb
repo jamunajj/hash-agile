@@ -19,21 +19,16 @@ end
 sum = sum(numbers)
 
 puts "Sum of the array elements: "
-
 puts sum
 
 puts "Average of the array elements: "
-
 puts sum/numbers.size.to_f
 
 puts "Product of the array elements: "
-
 puts product(numbers)
 
 puts "Highest value among the array elements"
-
 puts numbers.max
 
 puts "Smallest value among the array elements"
-
 puts numbers.min
